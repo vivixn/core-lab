@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h4>Vivian Lin
+<br>
+Agnes Cameron
+<br>
+Core Interaction Lab
+<br>
+14, February 2020
+<br><br>
+HTML Webpage in Javascript / Paul Ford’s What is Code
+</h4>
+<h2>HTML Page in JS</h2>
+<p>
+<a id="link" href="../../assignment3/index.html"> Link to Assignment </a><br><br>
+
+Okayyy, sooo…
+
+<br><br> *Mozart’s 5th*<br><br>
+
+ I have an idea of what I’d like to do to my HTML file, given what we’ve learned in class. <br>I was inspired by all the buttons we’d use and I personally do like buttons, so I decided <br>to make it so that the h2 subheading of “tensions” changes to the text of each paragraph <br>if you click on the button with that paragraph name. I don’t like the default font and want <br>to go with something more modern corporate tech-feeling because the article is a <br>foundational cyber-feminist text and the name Zadie just reminds me of Zadie Smith lol.
+
+<br><br>
+
+So, I haven’t had much experience with Javascript Like At All but I kind of have an idea <br>of how I’ll work this out… So…
+
+<br><br>
+
+Come with me along this process!
+
+<br><br>
+
+So I know that I want to change the subheading, which is “h2” and currently has the word <br>”tensions” in it. I first gave “h2” an Id of “subheading” so I can tell my JS file what <br>element exactly I want changed when I click my button. So I make a button on my index.html<br> page and name it “Paragraph1.” I named my on click function “changeSubHeadingInfo” <br>because that sounds pretty self explanatory and I just put all the info from paragraph 1 into <br>the brackets so it’ll show once the button is clicked. I don’t know 100% what the argument <br>“articleText” does but I just know that it shows the innerHTML/ text only when I set it equal <br>to something defined… Then, I changed the font family to Helvetica and the font colors to <br>pinks because #punk. 
+
+<br><br>
+
+I then make buttons for the three other paragraphs and set them all to the function <br>changeSubHeadingInfo. I might take a look at what a query selector is later… maybe…<br> I’m not sure how it differs from selecting an element by ID because we didn’t go over<br> it in class. We shall see. 
+
+<br><br>
+
+I’m trying to use onmouseover to change the font color of both the quotation and the title<br> but sometimes only the color of one changes. Certain colors work and certain ones don’t. <br>Sometimes the text under one ID changes but the other doesn’t. I’m not sure why this is.<br> I tried doing the camel hump thing and naming the color “redOrange” but it still doesn’t <br>change the color. Oh, I’m dumb. The color is orangered not redorange haha. 
+<br><br>
+	<img src="images/1.png" width="50%" height="50%">
+	<br>
+	<img src="images/2.png" width="50%" height="50%">
+	<br>
+	<img src="images/3.png" width="50%" height="50%">
+	<br>
+	<img src="images/4.png" width="50%" height="50%">
+<br><br>
+
+Okay. I think played with colors a bit more. And line breaks and stuff. (nvm. took them <br>out bc I couldn't figure out how to add them using JS...) I hope those aren’t breaking the <br>rules… Considering I somehow ended up breaking the rules forthe last two HWs even<br> though I promise I always read the entire email!!!
+<br><br>
+<h3>Confusions</h3>
+<br>
+One thing I'm still confused about is why is there a difference between doing 
+<br><br><br>
+In HTML:
+<br> <br><br>
+< body onmousemove="changeBackground('lavenderblush')" id="body">
+<br><br><br>
+In JS: 
+<br><br><br>
+function changeBackground(backgroundcolor){
+<br>document.getElementById('body').style.backgroundColor=backgroundcolor;
+<br>}
+<br><br><br>
+and 
+<br><br><br>
+In HTML: 
+<br><br><br>
+< h2 onmousemove="changeSubHeading('doineedthis')" id="subheading">tensions</h2>
+<br><br><br>
+and
+<br><br><br>
+In JS: 
+<br><br><br>
+function changeSubHeading(doineedthis){
+<br> document.getElementById('subheading').style.fontFamily="helvetica";
+<br><br><br>
+</p>
+
+<h2>Paul Ford’s “What is Code”</h2>
+
+<p>
+Um… So the page tracks how long I’ve been on the page and pops up on the corner… <br>Haha. Stalker. I think the introduction to this piece was very funny and sums up corporate<br> office life pretty pretty well. This line was especially funny “We are here because the <br>editor of this magazine asked me, ‘Can you tell me what code is?’ ‘No,’ I said. ‘First of <br>all, I’m not good at the math. I’m a programmer, yes, but I’m an East Coast programmer,<br> not one of these serious platform people from the Bay Area.’” I agree and think even if<br> we are not natural coders, we should still learn the basics to be able to relay our thought <br>process to the actual developers and have a basic understanding of how code works. I <br>liked learning about the different variety of coding languages out there and it gives me <br>hope that I may become better at Javascript with practice even though it seems so <br>foreign now.
+
+
+
+
+</p>
+
+</body>
+</html>

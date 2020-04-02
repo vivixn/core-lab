@@ -1,0 +1,202 @@
+html, body {
+		height: 100%;
+	}	
+
+
+body {
+		/*margin: 0;*/
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #93030D;
+		border-color: yellow;
+		border-style: dotted;
+		border-width: 30px;
+
+		background-image: url('images/7.gif');
+  		background-repeat: no-repeat;
+  		background-attachment: fixed;
+ 		background-position: center;
+ 		background-size: 100vw, 100vh;
+ 		cursor: url("images/cursor2.png"),auto ;
+
+
+}
+
+.cursor{
+	cursor: url("images/cursor2.png"),auto ;}
+
+
+/*.backgroundimage { background: url(images/7.jpg) no-repeat center / cover; }*/
+
+#link { color: #F2C647; } 
+
+.wrapper {font-family: Monoton;
+cursor: url("images/cursor2.png"),auto ;
+
+animation: slide 15s infinite ease-out;}
+
+
+
+
+
+.lyrics1 {
+cursor: url("images/cursor2.png"),auto ;
+	float: top;
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	border: dotted; border-color: pink; border-radius: 20px;
+	text-align: center;
+	transform: translate(-50vw,-35vh);
+	color: #F2C647;
+	animation: slide 15s 1 ease-out; animation-delay: 10s;
+/*	background-color: red; */
+
+	/*animation: slide 15s ease-out;*/
+
+
+
+}
+
+.lyrics2 {
+cursor: url("images/cursor2.png"),auto ;
+
+	float: top;
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	border: dotted; border-color: magenta; border-radius: 40px;
+	text-align: center;
+	transform: translate(-48vw,-5vh);
+	color: #F2C647;
+	animation: slide 15s 2 ease-out; animation-delay: 30s;
+	/*background-color: red; */
+/*	animation: slidetwo 15s 2 ease-in;*/
+
+
+}
+
+
+.lyrics3 {
+cursor: url("images/cursor2.png"),auto ;
+
+	float: top;
+	width: 300px;
+	height: 350px;
+	position: absolute;
+	border: dotted; border-color: green; border-radius: 20px;
+	text-align: center;
+	transform: translate(-20vw,-35vh);
+	color: #F2C647;
+	animation: slide 15s 1 ease-out; animation-delay: 30s;
+	/*background-color: red; */
+/*	animation: slide 15s infinite ease-out;
+*/
+
+}
+
+
+.lyrics4 {
+cursor: url("images/cursor2.png"),auto ;
+	float: top;
+	width: 300px;
+	height: 250px;
+	position: absolute;
+	border: dotted; border-color: blue; border-radius: 40px;
+	text-align: center;
+	transform: translate(-5vw,14vh);
+	color: #F2C647;
+	animation: slide 15s 2 ease-out; animation-delay: 30s;
+/*	background-color: red; */
+/*	animation: slide 10s infinite ease-out;*/
+
+
+}
+
+
+.lyrics5 {
+cursor: url("images/cursor2.png"),auto ;
+
+	float: top;
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	border: dotted; border-color: orangered; border-radius: 20px;
+	text-align: center;
+	transform: translate(10vw,-40vh); 
+	color: #F2C647;
+	animation: slide 15s 1 ease-out; animation-delay: 10s;
+/*	background-color: red; */
+/*		animation: slide 15s infinite ease-out;*/
+
+
+}
+
+.title1 {
+	color: white;
+	font-family: Monoton;
+	position: absolute;
+	text-align: center;
+	transform: translate(0vw, -45vh); 
+	cursor: url("images/cursor2.png"),auto ;
+
+}
+
+@keyframes slide {
+	0% { 
+
+	}
+
+	50% {
+		transform: translate(15vw, 0);
+	}
+	50% {
+		transform: translate(-15vw, 0);
+
+	}
+
+
+}
+
+
+
+
+
+.wrapper .lyrics5:hover {
+
+		background-color: orangered;
+
+	
+}
+.wrapper .lyrics4:hover {
+
+		background-color: magenta;
+
+	
+}
+.wrapper .lyrics3:hover {
+
+		background-color: blue;
+
+	
+}
+
+.wrapper .lyrics2:hover {
+
+		background-color: green;
+
+	
+}
+.wrapper .lyrics1:hover {
+
+		background-color: purple;
+
+	
+}
+
+.wrapper .title1:hover {
+
+	
+
+

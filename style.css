@@ -1,0 +1,141 @@
+ body {
+	font-family: eb garamond;
+	background-color: #f6f8fe;
+	margin:0;
+	padding-top: 10vmin; 
+	padding-right: 15vmin; padding-left: 15vmin;
+	overflow: hidden;
+	color: tomato;
+}
+a {color: #cd867a;}
+
+.cursor{
+	cursor: url("images/cursor5.png"),auto ;}
+
+
+
+.container {
+	cursor: url("images/cursor5.png"),auto ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: 10vmin;
+    grid-column-gap: 20vmin;
+    grid-row-gap: 0vmin;
+    justify-content: center;
+    align-content: center;
+    background-color: inherit;
+ 	
+ }
+
+
+.box1 { 
+	cursor: url("images/cursor5.png"),auto ;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 1;
+		/*background-color: salmon;*/
+		margin-top: 0vmin;
+		text-align:center;
+ 		font-size: 6vmin;
+ 	
+	
+}
+
+
+.box2 { 
+	cursor: url("images/cursor5.png"),auto ;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+		/*background-color: olive;*/
+		text-align:center;
+		font-size: 4vmin;
+/*		border-style: dotted; border-radius: 20px; border-color: white;*/
+}
+
+.box3 { 
+	cursor: url("images/cursor5.png"),auto ;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 3;
+		/*background-color: olive;*/
+		text-align:center;
+		font-size: 4vmin;
+	/*	border-style: dotted; border-radius: 20px; border-color: white;*/
+}
+
+.box4 { 
+	cursor: url("images/cursor5.png"),auto ;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 4;
+		/*background-color: olive;*/
+		text-align:center;
+		font-size: 4vmin;
+	/*	border-style: dotted; border-radius: 20px; border-color: white;*/
+}
+
+.box5 { 
+	cursor: url("images/cursor5.png"),auto ;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 5;
+		/*background-color: olive;*/
+		text-align:center;
+		font-size: 4vmin;
+		/*border-style: dotted; border-radius: 20px; border-color: white;*/
+}
+
+.container .box1:hover {
+
+	/*	background-color: #708ee8;*/
+		font-style: italic;
+	/*	opacity: 70%;
+*/
+
+	
+}
+
+
+.container .box2:hover {
+
+		background-color: #b3c3f3;opacity: 70%;
+	/*	font-style: italic;*/
+	
+
+	
+}
+
+.container .box3:hover {
+
+		background-color: #c6d2f6;opacity: 70%;
+/*		font-style: italic;*/
+	
+
+	
+}
+
+.container .box4:hover {
+
+		background-color: #d9e1f9;opacity: 70%;
+		/*font-style: italic;*/
+		
+
+	
+}
+
+.container .box5:hover {
+
+		background-color: #ecf0fc;  opacity: 70%;
+	/*	font-style: italic;*/
+		
+
+	
+}
+
+

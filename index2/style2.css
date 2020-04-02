@@ -1,0 +1,130 @@
+ body {
+	font-family: sacramento;
+	background-color: white;
+	margin:0;
+	padding-top: 10vmin; padding-bottom: 10vmin;
+	padding-right: 15vmin; padding-left: 15vmin;
+}
+
+
+.cursor{
+	cursor: url("images/cursor2.png"),auto ;}
+
+
+
+.container {
+	cursor: url("images/cursor2.png"),auto ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: 300px;
+    grid-column-gap: 20px;
+    grid-row-gap: 70px;
+    justify-content: center;
+    align-content: center;
+    background-color: inherit;
+ 	
+ }
+
+
+.box1 { 
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 1;
+		background-color: salmon;
+		margin-top: 50px;
+		text-align:center;
+ 		font-size: 50px;
+ 		border-style: dotted; border-radius: 40px; border-width: 5px; border-color: white;
+
+	
+}
+
+
+.box2 { 
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: 2;
+		background-color: olive;
+		text-align:center;
+		font-size: 30px;
+		border-style: dotted; border-radius: 20px; border-color: white;
+}
+
+.box3 { 
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+		background-color: olive;
+		text-align:center;
+		font-size: 30px;
+		border-style: dotted; border-radius: 20px; border-color: white;
+}
+
+.box4 { 
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+		background-color: olive;
+		text-align:center;
+		font-size: 30px;
+		border-style: dotted; border-radius: 20px; border-color: white;
+}
+
+.box6 { 
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 3;
+		background-color: olive;
+		text-align:center;
+		font-size: 30px;
+		border-style: dotted; border-radius: 20px; border-color: white;
+}
+
+.container .box1:hover {
+
+		background-color: olive;
+		font-style: italic;
+
+
+	
+}
+
+.container .box6:hover {
+
+		background-color: salmon;
+
+
+	
+}
+
+.container .box2:hover {
+
+		background-color: salmon;
+	
+
+	
+}
+
+.container .box3:hover {
+
+		background-color: salmon;
+	
+
+	
+}
+
+.container .box4:hover {
+
+		background-color: salmon;
+		
+
+	
+}
+
+
+

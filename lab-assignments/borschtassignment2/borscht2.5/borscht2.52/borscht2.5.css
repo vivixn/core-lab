@@ -1,0 +1,70 @@
+html, body {
+		height: 100%;
+	/*	display: flex;*/
+		align-items: center;
+		justify-content: center;
+	}
+
+	div{
+		width:100%
+		height: 100%;
+	/*	float:center;*/
+	font-family: helvetica;
+	font-size: 5px;
+	font-weight: lighter;
+	}
+
+.section1{  
+		float: right;
+    clear: right;
+    margin-right: 50px;
+  		color: #FCA19D;
+    }
+ .section2{  
+ 	float: right;
+		clear: right;
+
+  		color: #9DB1FC;}
+.section3{  
+		float: right;
+    clear: right;
+    margin-right: 150px;
+  		color: #B99DFC}
+ .section4{  
+		float: right;
+    clear: right;
+  		color: #FC9DE1}
+ .section5{  
+		float: right;
+    clear: right;
+    margin-right: 200px;
+  		color: #FCA29D}
+  .section6{  
+		float: right;
+    clear: right;
+  		color: #FCC59D}
+ .section7{  
+		float: right;
+    clear: right;
+    margin-right: 250px;
+  		color: #FC9DE1}
+ .section8{  
+		float: right;
+    clear: right;
+  		color: #FC9DB7}
+ .section9{  
+		float: right;
+    clear: right;
+    margin-right: 300px;
+  		color: #A49DFC}
+
+
+
+
+
+
+
+
+
+
+
