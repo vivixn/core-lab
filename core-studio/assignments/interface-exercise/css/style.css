@@ -1,0 +1,14 @@
+/*this is your css file*/
+
+div {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: grey;
+	
+	border-radius: 20px;
+}
+
+{
+  background-image: url('drawingboard.png');
+}

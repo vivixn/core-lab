@@ -1,0 +1,19 @@
+/*this is your css file*/
+body {
+
+	cursor: url("img/cursor.png"),auto ;
+}
+div {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: grey;
+	
+	border-radius: 20px;
+	cursor: url("img/cursor.png"),auto ;
+}
+
+
+.cursor {
+  cursor:url("img/cursor.png"), auto;
+}

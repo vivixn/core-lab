@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+	 <title>This is my square.</title>
+</head>
+
+<style>
+body {
+  background-image: url('drawingboard.png');
+  background-size: cover;
+  overflow: none;
+  background-repeat: no-repeat;
+ /* background-position: center center;*/
+
+}
+h1{text-align: center;}
+</style>
+
+
+<body>
+<h1>this interface is a magnetic drawing board</h1><div class="cursor"></div>
+<div><div class="cursor"></div></div>
+</body>
+
+<script>
+  
+var color = 0;
+
+document.onmousemove = function (event) {
+	var div = document.createElement ("div");
+	div.style.top = event.y + "px";
+	div.style.left = event.x + "px";
+	div.style.backgroundColor = "gray"
+	document.body.appendChild(div);
+}
+</script>
+
+</html> 
+
+<!--   	$('button').click(function () {
+
+    			$('#my-square').css({
+    				"width" : Math.floor(Math.random() * 500),
+    				"top" : Math.floor(Math.random() * 100) + "%",
+    				"left" : Math.floor(Math.random() * 100) + "%",
+    				"background-color" : 'rgb(' + Math.floor(Math.random()*255) + ',' + Math.floor(Math.random()*255) + ',' + Math.floor(Math.random()*255) + ')'
+    			})
+    			console.log("square is different now!");
+    	});
+ -->
