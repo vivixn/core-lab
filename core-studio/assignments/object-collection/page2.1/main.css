@@ -1,0 +1,61 @@
+
+body {
+  background-color: black;
+}
+
+/* styling paper */
+#paper {
+  width: 55vmin;
+  height: 66vmin;
+  position: relative;
+  margin: 2vmin auto;
+  margin-top: 11vmin;
+  padding-top: 6vmin;
+  padding-bottom: 6.5vmin;
+  background-color: antiquewhite;
+/*  box-shadow: 0px 0px 5px 0px #888;*/
+}
+
+/* styling red vertical line */
+#paper::before {
+  content: '';
+  width: 0.2vmin;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 5vmin;
+  background-color: black ;
+    bottom: 0vmin;
+}
+
+/* styling blue horizontal lines */
+#pattern {
+  height: 100%;
+  background-image: repeating-linear-gradient(antiquewhite 0vmin, antiquewhite 2.8vmin, grey 2.9vmin);
+}
+
+/* styling text content */
+#content .foundpoem {
+  padding-top: 6px;
+  padding-left: 7vmin;
+  padding-right: 2vmin;
+  line-height: 3vmin;
+  font-family: 'gillsans';
+  font-size: 1.3vmin;
+  letter-spacing: 0.02vmin;
+  word-spacing: 0.4vmin;
+  color: black
+}
+
+strike {background-color: teal;
+color: black;
+opacity: 0.85}
+
+
+.text1a 
+
+.text1b
+
+.text1c
+
+.text1d

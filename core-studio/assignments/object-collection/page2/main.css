@@ -1,0 +1,40 @@
+body {
+    /*display: flex;*/
+    font-family: gill sans;
+    font-weight: lighter;
+    background-color: black;
+    overflow: none}
+
+h2 {
+font-family: gill sans;
+font-weight: lighter;
+text-align: center;
+color: white}
+
+
+.text1a {
+
+color: lavender; 
+text-align: left;}
+
+.text1b{
+  
+color: goldenrod;
+/*background-color: #0d0825;*/
+text-align: right;}
+
+.text3 {
+  
+color: purple;background-color: beige;text-align: right}
+
+.text4{
+  
+  color: darkorange;
+background-color: beige;
+text-align: left}
+
+.text5{
+
+color: darkslategrey;
+background-color: beige;
+text-align: center}

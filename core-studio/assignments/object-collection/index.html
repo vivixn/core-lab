@@ -1,0 +1,41 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quarantine blackout poetry</title>
+
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Cormorant+Garamond|Sacramento&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+  <div class="container">
+  	<div class="cursor"></div>
+    <a href="page2.1/index.html" id="click">  </a>
+    <img src="images/background.jpeg" id="bookCover">
+  </div>
+
+<h1 id="text"></h1>
+
+<script type="text/javascript">
+
+document.onkeypress = function(event) {
+
+	var text = document.getElementById("text").innerHTML;
+
+	text = text + event.key;
+
+	document.getElementById("text").innerHTML = text;
+
+}
+
+
+
+</script>
+
+
+</body>
+</html>
