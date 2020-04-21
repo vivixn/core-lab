@@ -2,30 +2,32 @@ body {
     /*display: flex;*/
     font-family: gill sans;
     font-weight: lighter;
-    background-color: black;
+    background-color: beige;
     overflow: none}
 
 h2 {
 font-family: gill sans;
 font-weight: lighter;
 text-align: center;
-color: white}
+color: black}
 
 
-.text1a {
+.foundpoem {
 
-color: lavender; 
-text-align: left;}
+}
 
-.text1b{
+.text{
   
-color: goldenrod;
-/*background-color: #0d0825;*/
-text-align: right;}
+color: black;
+padding-right: 20px; padding-left: 20px; }
+/*background-color: #0d0825;
+}
 
-.text3 {
+/*.text3 {
   
-color: purple;background-color: beige;text-align: right}
+color: black;
+padding-right: 20px; padding-left: 20px; 
+ }
 
 .text4{
   
@@ -38,3 +40,10 @@ text-align: left}
 color: darkslategrey;
 background-color: beige;
 text-align: center}
+*/
+
+mark {
+  background-color: grey;
+  color: black;
+   opacity: 0.3;
+}

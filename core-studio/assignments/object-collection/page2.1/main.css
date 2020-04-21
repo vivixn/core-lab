@@ -3,6 +3,16 @@ body {
   background-color: black;
 }
 
+
+.foundpoem {
+
+}
+
+#text{
+  
+color: black;
+padding-right: 20px; padding-left: 20px; }
+
 /* styling paper */
 #paper {
   width: 55vmin;
@@ -35,7 +45,7 @@ body {
 }
 
 /* styling text content */
-#content .foundpoem {
+#content #foundpoem {
   padding-top: 6px;
   padding-left: 7vmin;
   padding-right: 2vmin;
@@ -47,15 +57,9 @@ body {
   color: black
 }
 
-strike {background-color: teal;
-color: black;
-opacity: 0.85}
 
-
-.text1a 
-
-.text1b
-
-.text1c
-
-.text1d
+mark {
+  background-color: grey;
+  color: black;
+   opacity: 0.3;
+}
