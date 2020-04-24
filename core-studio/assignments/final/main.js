@@ -5,7 +5,7 @@ var foundText = [
       "I held the door for a slim older woman with long gray hair",
     "Emma, do you know who that was?"],
 
-    "fullText": "<br><br><b>I.</b><br><mark>Dear Diary:</mark> Last spring, I spent a long weekend in New York with my mother. One morning,<mark> we went to a cafe in SoHo for breakfast.</mark> As we went inside, <mark>I held the door for a slim older woman with long gray hair</mark> who was wearing flannel and a black beanie. As the woman walked inside ahead of us, my mother hit me in the back. <mark>“Emma, do you know who that was?”</mark> she said.” “No,” I said honestly. “That,” she said, “was Patti Smith.” — Emma Romell<br>",
+    "fullText": "<br><br><br><br><mark>Dear Diary:</mark> Last spring, I spent a long weekend in New York with my mother. One morning,<mark> we went to a cafe in SoHo for breakfast.</mark> As we went inside, <mark>I held the door for a slim older woman with long gray hair</mark> who was wearing flannel and a black beanie. As the woman walked inside ahead of us, my mother hit me in the back. <mark>“Emma, do you know who that was?”</mark> she said.” “No,” I said honestly. “That,” she said, “was Patti Smith.” — Emma Romell<br><br>",
     "date": "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2",
     "sourceLink" :"<a href='https://www.nytimes.com/2020/03/08/nyregion/metropolitan-diary.html'>I Was on the F Train Headed to an Afternoon Doctor's Appointment' – NYT Metropolitan Diary</a>",
     "categorization": "nostalgic",
@@ -18,7 +18,7 @@ var foundText = [
       "and",
       "accidentally bumping into other people"],
 
-    "fullText":"<b>II.</b><br>Sorry, but working from home is overrated. Steve Jobs, <mark>for one</mark>, was a famous opponent of remote work, believing that Apple employees’ best work came from <mark>accidentally bumping into other people,</mark> not sitting at home in front of an email inbox. <mark>“Creativity comes from spontaneous meetings, from random discussions,”</mark> Mr. Jobs said. “You run into someone, you ask what they’re doing, you say ‘Wow,’ <mark> and soon you’re cooking up all sorts of ideas.”</mark><br>",
+    "fullText":"Sorry, but working from home is overrated. Steve Jobs, <mark>for one</mark>, was a famous opponent of remote work, believing that Apple employees’ best work came from <mark>accidentally bumping into other people,</mark> not sitting at home in front of an email inbox. <mark>“Creativity comes from spontaneous meetings, from random discussions,”</mark> Mr. Jobs said. “You run into someone, you ask what they’re doing, you say ‘Wow,’ <mark> and soon you’re cooking up all sorts of ideas.”</mark><br><br>",
     "date": "3",
     "source": "'Sorry, but Working From Home Is Overrated' – NYT THE SHIFT, Kevin Roose",
     "sourceLink" : "https://www.nytimes.com/2020/03/10/technology/working-from-home.html",
@@ -29,7 +29,7 @@ var foundText = [
     
     "sections": [ "It takes two to tango"],
 
-    "fullText": "<b>III.</b><br><mark>It takes two to tango,</mark> Grab a good book and <mark>get out</mark> on the dance floor. Begin, Dive in, Page turn, <mark>Plot Twist!</mark>, Melt, Leap <mark>Forward,</mark> Flip <mark>Backward,</mark> Stretch, Bookworm!, Curl <mark>Up, Release,</mark> Book <mark>Drop</mark>, Bow.<br>",
+    "fullText": "<mark>It takes two to tango,</mark> Grab a good book and <mark>get out</mark> on the dance floor. Begin, Dive in, Page turn, <mark>Plot Twist!</mark>, Melt, Leap <mark>Forward,</mark> Flip <mark>Backward,</mark> Stretch, Bookworm!, Curl <mark>Up, Release,</mark> Book <mark>Drop</mark>, Bow.<br><br>",
     "date": "0310",
     "source": "'It Takes Two to Tango' – The New Yorker, Grant Snider",
     "sourceLink" : "https://www.nytimes.com/2020/03/06/books/review/Sketchbook-Grant-Snider.html",
@@ -59,7 +59,7 @@ var foundText = [
     "her husband",
     "they had met in medical school. eachothers first loves. they had planned to grow old together."],
 
-    "fullText": "<b>IV.</b><br>Dr. Peng remains baffled about why <mark>Dr. Xia died after she had seemed to improve. Her immune system</mark>, like that of many health workers, may have been <mark>compromised by constant exposure to sickness.</mark> Perhaps she suffered from what experts call a 'cytokine storm' in which <mark>the</mark> immune system's reaction to a new <mark>virus engulfs the lungs</mark> with white blood cells and fluid. Perhaps she died because her organs were starved of oxygen. Back at Dr. Xia's home, <mark> her son, Jiabao – which means priceless treasure, – still thinks his mother is working.</mark> When the phone rings, he tries to grab it from his grandmother's hands, <mark> shouting: 'mama, mama.'</mark> </mark> <mark>Her husband, Dr. Wu, doesn't know what to tell Jiabao.</mark> He hasn't come to terms with her death himself. <mark>They</mark> had met in medical school and <mark>were eachother's first loves. They had planned to grow old together.</mark>",
+    "fullText": "Dr. Peng remains baffled about why <mark>Dr. Xia died after she had seemed to improve. Her immune system</mark>, like that of many health workers, may have been <mark>compromised by constant exposure to sickness.</mark> Perhaps she suffered from what experts call a 'cytokine storm' in which <mark>the</mark> immune system's reaction to a new <mark>virus engulfs the lungs</mark> with white blood cells and fluid. Perhaps she died because her organs were starved of oxygen. Back at Dr. Xia's home, <mark> her son, Jiabao – which means priceless treasure, – still thinks his mother is working.</mark> When the phone rings, he tries to grab it from his grandmother's hands, <mark> shouting: 'mama, mama.'</mark> </mark> <mark>Her husband, Dr. Wu, doesn't know what to tell Jiabao.</mark> He hasn't come to terms with her death himself. <mark>They</mark> had met in medical school and <mark>were eachother's first loves. They had planned to grow old together.</mark><br><br>",
     "date": "0313",
     "source": "Two Women Fell Sick From the Coronavirus. One Survived – NYT ",
     "sourceLink" : "https://www.nytimes.com/interactive/2020/03/13/world/asia/coronavirus-death-life.html",
@@ -252,10 +252,10 @@ var foundText = [
 //       "<div id ='pattern'>" +
 //     foundText[i].date )
 // }
-for(var i=0; i<foundText.length; i++){
-  $('h4').append( 
-     "<div id ='h4'>" + "<div>" + "<br>" + "<br>" +foundText[i].date + "<br>" + "<br>" + "<div>" )
-}
+// for(var i=0; i<foundText.length; i++){
+//   $('h4').append( 
+//      "<div id ='h4'>" + "<div>" + "<br>" + "<br>" +foundText[i].date + "<br>" + "<br>" + "<div>" )
+// }
 for(var i=0; i<foundText.length; i++){
   $('#foundpoem').append( 
      "<div id ='foundpoem'>"  +
