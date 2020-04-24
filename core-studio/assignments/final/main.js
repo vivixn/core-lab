@@ -1,12 +1,11 @@
 var foundText = [
-{
-    "id" : "hi",
-    "sections":[ "We went to a cafe in SoHo for breakfast",
+
+  { "sections":[ "We went to a cafe in SoHo for breakfast",
       "I held the door for a slim older woman with long gray hair",
     "Emma, do you know who that was?"],
 
-    "fullText": "<br><br><br><br><mark>Dear Diary:</mark> Last spring, I spent a long weekend in New York with my mother. One morning,<mark> we went to a cafe in SoHo for breakfast.</mark> As we went inside, <mark>I held the door for a slim older woman with long gray hair</mark> who was wearing flannel and a black beanie. As the woman walked inside ahead of us, my mother hit me in the back. <mark>“Emma, do you know who that was?”</mark> she said.” “No,” I said honestly. “That,” she said, “was Patti Smith.” — Emma Romell<br><br>",
-    "date": "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp2",
+    "fullText": "<br><mark>Dear Diary:</mark><br>Last spring, I spent a long weekend in New York with my mother. One morning,<mark> we went to a cafe in SoHo for breakfast.</mark> As we went inside, <mark>I held the door for a slim older woman with long gray hair</mark> who was wearing flannel and a black beanie. As the woman walked inside ahead of us, my mother hit me in the back. <mark>“Emma, do you know who that was?”</mark> she said.” “No,” I said honestly. “That,” she said, “was Patti Smith.” — Emma Romell<br><br>",
+    "date": "2",
     "sourceLink" :"<a href='https://www.nytimes.com/2020/03/08/nyregion/metropolitan-diary.html'>I Was on the F Train Headed to an Afternoon Doctor's Appointment' – NYT Metropolitan Diary</a>",
     "categorization": "nostalgic",
 
@@ -247,6 +246,7 @@ var foundText = [
 
 
 //text on looseleaf
+
 // for(var i=0; i<foundText.length; i++){
 //   $('.pattern').append( 
 //       "<div id ='pattern'>" +
@@ -260,26 +260,29 @@ var foundText = [
 for(var i=0; i<foundText.length; i++){
   $('#foundpoem').append( 
      "<div id ='foundpoem'>"  +
-    foundText[i].fullText  )
+    foundText[i].fullText + "</div>" )
 }
 
 // + foundText[i].date
 
+// foundText.forEach(function(foundFull){
+// $("#foundpoem").append("<div id=foundpoem>"+ foundFull.date + "<br>" + foundFull.fullText+ "</div>")
+// });
+
 
 //for where every array has this element
 
-foundText.forEach(function(foundCategorization){
-$(".projectsTab2").append("<div class=categorization>"+ foundCategorization.categorization+ "</div>")
-})
+// foundText.forEach(function(foundCategorization){
+// $(".projectsTab2").append("<div class=categorization>"+ foundCategorization.categorization+ "</div>")
+// })
 
 foundText.forEach(function(foundSections){
 $(".projectsTab4").append("<div class=sections>"+ foundSections.sections+ "</div>")
 })
 
-foundText.forEach(function(foundLinks){
-$(".projectsTab5").append("<div class=sourceLink>"+ foundLinks.sourceLink+ "</div>")
-});
-
+// foundText.forEach(function(foundLinks){
+// $(".projectsTab5").append("<div class=sourceLink>"+ foundLinks.sourceLink+ "</div>")
+// });
 
 
 //to target the images of one element in array
@@ -295,20 +298,22 @@ for(var i=0; i<1; i++){
     foundText[0].images + "<br>" + "<br>" +
     "</div>" )
 }
-// var object_by_id = $filter('filter')(foo.results, {id: 0 })[0];
+
+//FILTER NOSTALGIA
+
+var filteredCategorization = foundText.filter( function(foundText) {return foundText.categorization === 'nostalgic' });
 
 
-// function searchByCategorization(categorization) {
-//     var filteredArray = foundText.filter(foundText => foundText.categorization === 'nostalgic');
-//     return filteredArray;
-// }
 
-// console.log(searchByCategorization('nostalgic'))
+for(var i=0; i<filteredCategorization.length; i++){
+  $('.projectsTab2').append( 
+     "<div class=categorization>"  +
+    filteredCategorization[i].fullText + '</div>' )
+}
+//FILTER NOSTALGIA
 
 
-$(document).ready(function () {
-  $('divprojectsTab1').click(function() {
-  $('body,html').animate({
-    scrollTop: $("#foundpoem, .text ").offset().top
-  }, 1000)
-})});
+
+
+
+
