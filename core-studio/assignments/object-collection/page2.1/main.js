@@ -45,11 +45,11 @@
 		"her husband",
 		"they had met in medical school. eachothers first loves. they had planned to grow old together."],
 
-		"fullText": " <mark> Dr. Peng remains baffled about why Dr. Xia died after she had seemed to improve. Her immune system, like that of many health workers, may have been compromised by constant exposure to sickness. Perhaps she suffered from what ",
+		"fullText": " <mark> Dr. Peng remains baffled about why Dr. Xia died after she had seemed to improve. Her immune system, like that of many health workers, may have been compromised by constant exposure to sickness. Perhaps she suffered from what experts call a 'cytokine storm' in which the immune system's reaction to a new virus englfs the lungs with white blood cells and fluid. Perhaps she died because her organs were starved of oxygen. Back at Dr. Xia's home, </mark> her son, Jiabao – which means priceless treasure, <mark> – still thinks his mother is working. When the phone rings, he </mark>tries to grab <mark>it from </mark>his grandmother's hands, <mark> shouting : </mark> 'mama, mama.'<mark> </mark>Her husband<mark>, Dr. Wu, doesn't know what to tell Jiabao. He </mark>hasn't come to terms with her death himself. They had met in medical school and were eachother's first loves. They had planned to grow old together.</mark>",
 		"date": "0313",
 		"source": "Two Women Fell Sick From the Coronavirus. One Survived – NYT ",
-		"sourceLink" : "hi",
-		"categorization": "two"
+		"sourceLink" : "https://www.nytimes.com/interactive/2020/03/13/world/asia/coronavirus-death-life.html",
+		"categorization": "sad"
 	},
 		
 	{	

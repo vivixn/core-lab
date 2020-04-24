@@ -16,7 +16,8 @@ padding-right: 20px; padding-left: 20px; }
 /* styling paper */
 #paper {
   width: 55vmin;
-  height: 66vmin;
+  max-height: 200vmin;
+  /*height: 66vmin;*/
   position: relative;
   margin: 2vmin auto;
   margin-top: 11vmin;
@@ -35,7 +36,7 @@ padding-right: 20px; padding-left: 20px; }
   top: 0;
   left: 5vmin;
   background-color: black ;
-    bottom: 0vmin;
+  bottom: 0vmin;
 }
 
 /* styling blue horizontal lines */
