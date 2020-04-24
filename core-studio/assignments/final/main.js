@@ -256,13 +256,14 @@ var foundText = [
 //   $('h4').append( 
 //      "<div id ='h4'>" + "<div>" + "<br>" + "<br>" +foundText[i].date + "<br>" + "<br>" + "<div>" )
 // }
+
 for(var i=0; i<foundText.length; i++){
   $('#foundpoem').append( 
      "<div id ='foundpoem'>"  +
     foundText[i].fullText  )
 }
 
-
+// + foundText[i].date
 
 
 //for where every array has this element
@@ -305,5 +306,9 @@ for(var i=0; i<1; i++){
 // console.log(searchByCategorization('nostalgic'))
 
 
-
-
+$(document).ready(function () {
+  $('divprojectsTab1').click(function() {
+  $('body,html').animate({
+    scrollTop: $("#foundpoem, .text ").offset().top
+  }, 1000)
+})});
