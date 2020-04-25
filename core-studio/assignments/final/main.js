@@ -64,120 +64,27 @@ var foundText = [
     "sourceLink" : "https://www.nytimes.com/interactive/2020/03/13/world/asia/coronavirus-death-life.html",
     "categorization": "sad"
   },
-    
+  
+  {
+    "sections" :[ ""],
+
+    "fullText": "Allow people to help when they offer it, even if it seems silly and that you can do it yourself. By allowing them to help, you’re allowing them to follow Jesus’ example.<br><br>",
+    "date": "0315",
+    "source": "Karen",
+    "sourceLink" : "Karen",
+    "categorization": "nostalgic"
+  },
+
 {
-    "sections" :[ "her son, Jiabao",
-    "means priceless treasure",
-    "tries to grab his grandmother's hands",
-    "mama mama",
-    "her husband",
-    "they had met in medical school. eachothers first loves. they had planned to grow old together."],
+    "sections" :[ ""],
 
-    "fullText": " <mark> Dr. Peng remains baffled about why Dr. Xia died after she had seemed to improve. Her immune system, like that of many health workers, may have been compromised by constant exposure to sickness. Perhaps she suffered from what experts call a 'cytokine storm' in which the immune system's reaction to a new virus englfs the lungs with white blood cells and fluid. Perhaps she died because her organs were starved of oxygen. Back at Dr. Xia's home, </mark> her son, Jiabao – which means priceless treasure, <mark> – still thinks his mother is working. When the phone rings, he </mark>tries to grab <mark>it from </mark>his grandmother's hands, <mark> shouting : </mark> 'mama, mama.'<mark> </mark>Her husband<mark>, Dr. Wu, doesn't know what to tell Jiabao. He </mark>hasn't come to terms with her death himself. They had met in medical school and were eachother's first loves. They had planned to grow old together.</mark>",
-    "date": "0313",
-    "source": "Two Women Fell Sick From the Coronavirus. One Survived – NYT ",
-    "sourceLink" : "https://www.nytimes.com/interactive/2020/03/13/world/asia/coronavirus-death-life.html",
-    "categorization": "sad"
+    "fullText": "5. When my face is directly over a steaming basin of pho, my glasses get fogged up and my pores open. Sometimes I get so distracted by temporary blindness I forget about the soup beneath. Then you get to start playing with it. Squeeze of lime here. Extra fish sauce there. I like to drop the bean sprouts in one by one. One sprout at a time saying ‘now your turn!’ and unlike some OTHER soups mentioned earlier, you GET YOUR NOODLES.<br><br>",
+    "date": "0316",
+    "source": "Bon Appetit",
+    "sourceLink" : "",
+    "categorization": "funny"
   },
-    {
-    "sections" :[ "her son, Jiabao",
-    "means priceless treasure",
-    "tries to grab his grandmother's hands",
-    "mama mama",
-    "her husband",
-    "they had met in medical school. eachothers first loves. they had planned to grow old together."],
-
-    "fullText": " <mark> Dr. Peng remains baffled about why Dr. Xia died after she had seemed to improve. Her immune system, like that of many health workers, may have been compromised by constant exposure to sickness. Perhaps she suffered from what experts call a 'cytokine storm' in which the immune system's reaction to a new virus englfs the lungs with white blood cells and fluid. Perhaps she died because her organs were starved of oxygen. Back at Dr. Xia's home, </mark> her son, Jiabao – which means priceless treasure, <mark> – still thinks his mother is working. When the phone rings, he </mark>tries to grab <mark>it from </mark>his grandmother's hands, <mark> shouting : </mark> 'mama, mama.'<mark> </mark>Her husband<mark>, Dr. Wu, doesn't know what to tell Jiabao. He </mark>hasn't come to terms with her death himself. They had met in medical school and were eachother's first loves. They had planned to grow old together.</mark>",
-    "date": "0313",
-    "source": "Two Women Fell Sick From the Coronavirus. One Survived – NYT ",
-    "sourceLink" : "https://www.nytimes.com/interactive/2020/03/13/world/asia/coronavirus-death-life.html",
-    "categorization": "sad"
-  },
-    {
-    "sections" :[ "her son, Jiabao",
-    "means priceless treasure",
-    "tries to grab his grandmother's hands",
-    "mama mama",
-    "her husband",
-    "they had met in medical school. eachothers first loves. they had planned to grow old together."],
-
-    "fullText": " <mark> Dr. Peng remains baffled about why Dr. Xia died after she had seemed to improve. Her immune system, like that of many health workers, may have been compromised by constant exposure to sickness. Perhaps she suffered from what experts call a 'cytokine storm' in which the immune system's reaction to a new virus englfs the lungs with white blood cells and fluid. Perhaps she died because her organs were starved of oxygen. Back at Dr. Xia's home, </mark> her son, Jiabao – which means priceless treasure, <mark> – still thinks his mother is working. When the phone rings, he </mark>tries to grab <mark>it from </mark>his grandmother's hands, <mark> shouting : </mark> 'mama, mama.'<mark> </mark>Her husband<mark>, Dr. Wu, doesn't know what to tell Jiabao. He </mark>hasn't come to terms with her death himself. They had met in medical school and were eachother's first loves. They had planned to grow old together.</mark>",
-    "date": "0313",
-    "source": "Two Women Fell Sick From the Coronavirus. One Survived – NYT ",
-    "sourceLink" : "https://www.nytimes.com/interactive/2020/03/13/world/asia/coronavirus-death-life.html",
-    "categorization": "sad"
-  },
-    {
-    "sections" :[ "her son, Jiabao",
-    "means priceless treasure",
-    "tries to grab his grandmother's hands",
-    "mama mama",
-    "her husband",
-    "they had met in medical school. eachothers first loves. they had planned to grow old together."],
-
-    "fullText": " <mark> Dr. Peng remains baffled about why Dr. Xia died after she had seemed to improve. Her immune system, like that of many health workers, may have been compromised by constant exposure to sickness. Perhaps she suffered from what experts call a 'cytokine storm' in which the immune system's reaction to a new virus englfs the lungs with white blood cells and fluid. Perhaps she died because her organs were starved of oxygen. Back at Dr. Xia's home, </mark> her son, Jiabao – which means priceless treasure, <mark> – still thinks his mother is working. When the phone rings, he </mark>tries to grab <mark>it from </mark>his grandmother's hands, <mark> shouting : </mark> 'mama, mama.'<mark> </mark>Her husband<mark>, Dr. Wu, doesn't know what to tell Jiabao. He </mark>hasn't come to terms with her death himself. They had met in medical school and were eachother's first loves. They had planned to grow old together.</mark>",
-    "date": "0313",
-    "source": "Two Women Fell Sick From the Coronavirus. One Survived – NYT ",
-    "sourceLink" : "https://www.nytimes.com/interactive/2020/03/13/world/asia/coronavirus-death-life.html",
-    "categorization": "sad"
-  },
-    {
-    "sections" :[ "her son, Jiabao",
-    "means priceless treasure",
-    "tries to grab his grandmother's hands",
-    "mama mama",
-    "her husband",
-    "they had met in medical school. eachothers first loves. they had planned to grow old together."],
-
-    "fullText": " <mark> Dr. Peng remains baffled about why Dr. Xia died after she had seemed to improve. Her immune system, like that of many health workers, may have been compromised by constant exposure to sickness. Perhaps she suffered from what experts call a 'cytokine storm' in which the immune system's reaction to a new virus englfs the lungs with white blood cells and fluid. Perhaps she died because her organs were starved of oxygen. Back at Dr. Xia's home, </mark> her son, Jiabao – which means priceless treasure, <mark> – still thinks his mother is working. When the phone rings, he </mark>tries to grab <mark>it from </mark>his grandmother's hands, <mark> shouting : </mark> 'mama, mama.'<mark> </mark>Her husband<mark>, Dr. Wu, doesn't know what to tell Jiabao. He </mark>hasn't come to terms with her death himself. They had met in medical school and were eachother's first loves. They had planned to grow old together.</mark>",
-    "date": "0313",
-    "source": "Two Women Fell Sick From the Coronavirus. One Survived – NYT ",
-    "sourceLink" : "https://www.nytimes.com/interactive/2020/03/13/world/asia/coronavirus-death-life.html",
-    "categorization": "sad"
-  },
-    {
-    "sections" :[ "her son, Jiabao",
-    "means priceless treasure",
-    "tries to grab his grandmother's hands",
-    "mama mama",
-    "her husband",
-    "they had met in medical school. eachothers first loves. they had planned to grow old together."],
-
-    "fullText": " <mark> Dr. Peng remains baffled about why Dr. Xia died after she had seemed to improve. Her immune system, like that of many health workers, may have been compromised by constant exposure to sickness. Perhaps she suffered from what experts call a 'cytokine storm' in which the immune system's reaction to a new virus englfs the lungs with white blood cells and fluid. Perhaps she died because her organs were starved of oxygen. Back at Dr. Xia's home, </mark> her son, Jiabao – which means priceless treasure, <mark> – still thinks his mother is working. When the phone rings, he </mark>tries to grab <mark>it from </mark>his grandmother's hands, <mark> shouting : </mark> 'mama, mama.'<mark> </mark>Her husband<mark>, Dr. Wu, doesn't know what to tell Jiabao. He </mark>hasn't come to terms with her death himself. They had met in medical school and were eachother's first loves. They had planned to grow old together.</mark>",
-    "date": "0313",
-    "source": "Two Women Fell Sick From the Coronavirus. One Survived – NYT ",
-    "sourceLink" : "https://www.nytimes.com/interactive/2020/03/13/world/asia/coronavirus-death-life.html",
-    "categorization": "sad"
-  },
-    {
-    "sections" :[ "her son, Jiabao",
-    "means priceless treasure",
-    "tries to grab his grandmother's hands",
-    "mama mama",
-    "her husband",
-    "they had met in medical school. eachothers first loves. they had planned to grow old together."],
-
-    "fullText": " <mark> Dr. Peng remains baffled about why Dr. Xia died after she had seemed to improve. Her immune system, like that of many health workers, may have been compromised by constant exposure to sickness. Perhaps she suffered from what experts call a 'cytokine storm' in which the immune system's reaction to a new virus englfs the lungs with white blood cells and fluid. Perhaps she died because her organs were starved of oxygen. Back at Dr. Xia's home, </mark> her son, Jiabao – which means priceless treasure, <mark> – still thinks his mother is working. When the phone rings, he </mark>tries to grab <mark>it from </mark>his grandmother's hands, <mark> shouting : </mark> 'mama, mama.'<mark> </mark>Her husband<mark>, Dr. Wu, doesn't know what to tell Jiabao. He </mark>hasn't come to terms with her death himself. They had met in medical school and were eachother's first loves. They had planned to grow old together.</mark>",
-    "date": "0313",
-    "source": "Two Women Fell Sick From the Coronavirus. One Survived – NYT ",
-    "sourceLink" : "https://www.nytimes.com/interactive/2020/03/13/world/asia/coronavirus-death-life.html",
-    "categorization": "sad"
-  },
-    {
-    "sections" :[ "her son, Jiabao",
-    "means priceless treasure",
-    "tries to grab his grandmother's hands",
-    "mama mama",
-    "her husband",
-    "they had met in medical school. eachothers first loves. they had planned to grow old together."],
-
-    "fullText": " <mark> Dr. Peng remains baffled about why Dr. Xia died after she had seemed to improve. Her immune system, like that of many health workers, may have been compromised by constant exposure to sickness. Perhaps she suffered from what experts call a 'cytokine storm' in which the immune system's reaction to a new virus englfs the lungs with white blood cells and fluid. Perhaps she died because her organs were starved of oxygen. Back at Dr. Xia's home, </mark> her son, Jiabao – which means priceless treasure, <mark> – still thinks his mother is working. When the phone rings, he </mark>tries to grab <mark>it from </mark>his grandmother's hands, <mark> shouting : </mark> 'mama, mama.'<mark> </mark>Her husband<mark>, Dr. Wu, doesn't know what to tell Jiabao. He </mark>hasn't come to terms with her death himself. They had met in medical school and were eachother's first loves. They had planned to grow old together.</mark>",
-    "date": "0313",
-    "source": "Two Women Fell Sick From the Coronavirus. One Survived – NYT ",
-    "sourceLink" : "https://www.nytimes.com/interactive/2020/03/13/world/asia/coronavirus-death-life.html",
-    "categorization": "sad"
-  },
-    
+  
   ]
 
 

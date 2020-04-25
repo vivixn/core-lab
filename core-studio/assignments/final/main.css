@@ -222,7 +222,7 @@ padding-right: 20px; padding-left: 20px; }
 margin-top: 5vh;
   height: 100vh;
   width: 102%;
-  background-image: repeating-linear-gradient(#fdf7ea 0vmin, #fdf7ea 2.7vh, grey 2.8vh);
+  background-image: repeating-linear-gradient(#fdf7ea 0vmin, #fdf7ea 1.45vw, grey 1.495vw);
 }
 
 /* styling text content */
@@ -231,7 +231,7 @@ margin-top: 5vh;
   margin-left: 10vmin;
   margin-right: 2vmin;
  /* padding-right: 6vmin;*/
-  line-height: 2.85vmin;
+  line-height: 1.5vw;
   font-family: 'Cormorant Garamond';
   font-size: 1vw;
   letter-spacing: 0.02vmin;
