@@ -114,6 +114,15 @@ opacity: 65%;
 color:#1e1d19;
 }
 
+
+
+
+.categorization:hover{
+background-color: rgba(250, 175, 190, 0.9);
+opacity: 65%;
+color:#1e1d19;
+}
+
 /*yellow for nostalgic */
 
 #foundpoem:nth-child(1):hover{
