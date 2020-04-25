@@ -215,8 +215,7 @@ var filteredCategorization = foundText.filter( function(foundText) {return found
 for(var i=0; i<filteredCategorization.length; i++){
   $('.projectsTab2').append( 
      "<div class=categorization>"  +
-    filteredCategorization[i].fullText + '</div>' )
-}
+    filteredCategorization[i].fullText + '</div>' + "<div class=categorizationimage>" + filteredCategorization[i].images + "</div>")}
 //FILTER NOSTALGIA
 
 

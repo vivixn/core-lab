@@ -26,7 +26,7 @@ font-size: 1vw;
 }
 
 .left {
-  padding-top: 3vw;
+  padding-top: 2vw;
   position: sticky;
    padding-left: 5vw;
 
@@ -146,7 +146,7 @@ color:#1e1d19;
 
 
 .menu
-{max-height: 50vh;
+{max-height: 51vh;
    font-size: 1vw;
    color: #ffded3; 
   overflow: scroll;}
