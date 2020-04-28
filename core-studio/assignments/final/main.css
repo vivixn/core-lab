@@ -19,7 +19,6 @@ h3 {/*float: right;*/
 font-size: 1.5vw;
 }
 
-
 h4 {float: left;
 font-size: 1vw;
  margin-right: 4vw;
@@ -29,6 +28,7 @@ font-size: 1vw;
   padding-top: 2vw;
   position: sticky;
    padding-left: 5vw;
+   overflow: none;
 
 
 }
@@ -100,53 +100,160 @@ opacity: .65}
 
 
 /*do through jquery*/
-/*pink is for happy */
+/*pink is for funny */
 
-#foundpoem:nth-child(2):hover{
+/*#foundpoem:nth-child(2):hover{
 background-color: rgba(250, 175, 190, 0.9);
 opacity: 65%;
 color:#1e1d19;
-}
+}*/
 
-#foundpoem:nth-child(3):hover{
-background-color: rgba(250, 175, 190, 0.9);
-opacity: 65%;
+#foundpoem:nth-child(5):hover{
+background-color: rgba(250, 195, 204, 0.9);
 color:#1e1d19;
 }
 
-
-
-
-.categorization:hover{
-background-color: rgba(250, 175, 190, 0.9);
-opacity: 65%;
+#foundpoem:nth-child(11):hover{
+background-color: rgba(250, 195, 204, 0.9);
 color:#1e1d19;
 }
+
+#foundpoem:nth-child(13):hover{
+background-color: rgba(250, 195, 204, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(15):hover{
+background-color: rgba(250, 195, 204, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(19):hover{
+background-color: rgba(250, 195, 204, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(21):hover{
+background-color: rgba(250, 195, 204, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(29):hover{
+background-color: rgba(250, 195, 204, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(31):hover{
+background-color: rgba(250, 195, 204, 0.9);
+color:#1e1d19;
+}
+
 
 /*yellow for nostalgic */
 
-#foundpoem:nth-child(1):hover{
-background-color: rgba(250, 220, 140, 0.9);
-opacity: 65%;
+.categorization:hover{
+background-color: rgba(250, 225, 140, 0.9);
 color:#1e1d19;
 }
 
-#foundpoem:nth-child(6):hover{
-background-color: rgba(250, 220, 140, 0.9);
-opacity: 65%;
+#foundpoem:nth-child(1):hover{
+background-color: rgba(250, 225, 140, 0.9);
 color:#1e1d19;
 }
+
+#foundpoem:nth-child(17):hover{
+background-color: rgba(250, 225, 140, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(23):hover{
+background-color: rgba(250, 225, 140, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(25):hover{
+background-color: rgba(250, 225, 140, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(35):hover{
+background-color: rgba(250, 225, 140, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(39):hover{
+background-color: rgba(250, 225, 140, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(43):hover{
+background-color: rgba(250, 225, 140, 0.9);
+color:#1e1d19;
+}
+
 
 /*blue sad */
-#foundpoem:nth-child(4):hover{
-background-color: rgba(159, 200, 245, 0.9);
-opacity: 65%;
+#foundpoem:nth-child(7):hover{
+background-color: rgba(202, 216, 247, 0.9);
 color:#1e1d19;
 }
+
+#foundpoem:nth-child(27):hover{
+background-color: rgba(202, 216, 247, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(37):hover{
+background-color: rgba(202, 216, 247, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(41):hover{
+background-color: rgba(202, 216, 247, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(45):hover{
+background-color: rgba(202, 216, 247, 0.9);
+color:#1e1d19;
+}
+
+
+
+/*green is neutral*/
+/*#foundpoem:nth-child(2):hover{
+background-color: rgba(195, 233, 158, 0.9);
+color:#1e1d19;
+}*/
+
+#foundpoem:nth-child(3):hover{
+background-color: rgba(195, 233, 158, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(9):hover{
+background-color: rgba(195, 233, 158, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(33):hover{
+background-color: rgba(195, 233, 158, 0.9);
+color:#1e1d19;
+}
+
+#foundpoem:nth-child(47):hover{
+background-color: rgba(195, 233, 158, 0.9);
+color:#1e1d19;
+}
+
+
+
+
+
 
 
 .menu
-{max-height: 51vh;
+{max-height: 50vh;
    font-size: 1vw;
    color: #ffded3; 
   overflow: scroll;}
@@ -162,9 +269,15 @@ text-decoration: underline; color: #ffded3;  font-size: 1vw;
 
 }
 
-.categorization, .sourceLink, .date, .sections, a{
+.categorization, .sourceLink, .date, .sections {
 left: 1px;
   color: #ffded3;
+  font-size: 1vw;
+}
+
+a{
+left: 1px;
+  color: olive;
   font-size: 1vw;
 }
 
@@ -178,7 +291,6 @@ font-size: 1vw;
 }
 
 #text{
-  
 color: black;
 padding-right: 20px; padding-left: 20px; }
 
@@ -207,12 +319,11 @@ padding-right: 20px; padding-left: 20px; }
 #paper::before {
   content: '';
   width: 0.2vmin;
-  height: 3000vh;
+  height: 575vh;
   position: absolute;
   top: 0;
   left: 5vmin;
   background-color: grey ;
-  bottom: 0vmin;
   margin-right: 60vmin;
 }
 
@@ -220,10 +331,12 @@ padding-right: 20px; padding-left: 20px; }
 #pattern {
 /*  position: relative;*/
 margin-top: 5vh;
-  height: 100vh;
+  height: 565vh;
   width: 102%;
-  background-image: repeating-linear-gradient(#fdf7ea 0vmin, #fdf7ea 1.45vw, grey 1.495vw);
+  background-image: repeating-linear-gradient(#fdf7ea 0vmin, #fdf7ea 1.47vw, grey 1.50605vw);
 }
+/*i GIVE UP WITH THE LINES LOL*/
+
 
 /* styling text content */
 #content #foundpoem {
