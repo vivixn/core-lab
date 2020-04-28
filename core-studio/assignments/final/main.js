@@ -308,7 +308,7 @@ var foundText = [
     var typed = new Typed('#description', {
       strings: [
       '',
-    'ive been reading quite a lot these days...<br>i keep a commonplace book. this is where <br> i transcribe passages that evoke nostalgia, <br>a sense of optimism, humor, or sadness. <br> this is a poem that is composed of curated <br>  excerpts from passages that i had gathered<br>  during my quarantine. the highlighted lines<br>piece together as a story, one filled with<br>connections that are uncovered when read.', 
+    'ive been reading quite a lot these days...<br>i keep a commonplace book. this is where <br> i transcribe passages that evoke nostalgia, <br>a sense of optimism, humor, or sadness. <br> this is a poem that is composed of curated <br>  excerpts from passages that i had gathered<br>  during my quarantine. the highlighted lines<br>piece together as a story, one filled with<br>connections uncovered when read together.', 
     // 'and please do follow along by reading <br> the underlined sections of the excerpts to <br> uncover the entire story. underneath is an <br>image gallery. the numbers correspond to <br>with the articles which they accompany.<br><br> best, <br>vivian',
       ],
   
