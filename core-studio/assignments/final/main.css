@@ -53,9 +53,9 @@ span {
 }
 
 
-mark {background-color: #fbf592;
+mark {background-color: #1e1d19;
 color:#1e1d19; 
-border-radius: 1px;
+border-radius: 1.23px;
 opacity: .9}
 
 mark:hover {
@@ -109,140 +109,140 @@ color:#1e1d19;
 }*/
 
 #foundpoem:nth-child(5):hover{
-background-color: rgba(250, 195, 204, 0.9);
+background-color: rgba(250, 195, 204, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(11):hover{
-background-color: rgba(250, 195, 204, 0.9);
+background-color: rgba(250, 195, 204, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(13):hover{
-background-color: rgba(250, 195, 204, 0.9);
+background-color: rgba(250, 195, 204, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(15):hover{
-background-color: rgba(250, 195, 204, 0.9);
+background-color: rgba(250, 195, 204, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(19):hover{
-background-color: rgba(250, 195, 204, 0.9);
+background-color: rgba(250, 195, 204, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(21):hover{
-background-color: rgba(250, 195, 204, 0.9);
+background-color: rgba(250, 195, 204, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(29):hover{
-background-color: rgba(250, 195, 204, 0.9);
+background-color: rgba(250, 195, 204, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(31):hover{
-background-color: rgba(250, 195, 204, 0.9);
+background-color: rgba(250, 195, 204, 0.25);
 color:#1e1d19;
 }
 
 
 /*yellow for nostalgic */
 
-.categorization:hover{
-background-color: rgba(250, 225, 140, 0.9);
+/*.categorization:hover{
+background-color: rgba(250, 225, 140, 0.05);
 color:#1e1d19;
 }
-
+*/
 #foundpoem:nth-child(1):hover{
-background-color: rgba(250, 225, 140, 0.9);
+background-color: rgba(250, 225, 140, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(17):hover{
-background-color: rgba(250, 225, 140, 0.9);
+background-color: rgba(250, 225, 140, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(23):hover{
-background-color: rgba(250, 225, 140, 0.9);
+background-color: rgba(250, 225, 140, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(25):hover{
-background-color: rgba(250, 225, 140, 0.9);
+background-color: rgba(250, 225, 140, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(35):hover{
-background-color: rgba(250, 225, 140, 0.9);
+background-color: rgba(250, 225, 140, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(39):hover{
-background-color: rgba(250, 225, 140, 0.9);
+background-color: rgba(250, 225, 140, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(43):hover{
-background-color: rgba(250, 225, 140, 0.9);
+background-color: rgba(250, 225, 140, 0.25);
 color:#1e1d19;
 }
 
 
 /*blue sad */
 #foundpoem:nth-child(7):hover{
-background-color: rgba(202, 216, 247, 0.9);
+background-color: rgba(202, 216, 247, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(27):hover{
-background-color: rgba(202, 216, 247, 0.9);
+background-color: rgba(202, 216, 247, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(37):hover{
-background-color: rgba(202, 216, 247, 0.9);
+background-color: rgba(202, 216, 247, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(41):hover{
-background-color: rgba(202, 216, 247, 0.9);
+background-color: rgba(202, 216, 247, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(45):hover{
-background-color: rgba(202, 216, 247, 0.9);
+background-color: rgba(202, 216, 247, 0.25);
 color:#1e1d19;
 }
 
 
 
-/*green is neutral*/
+/*green is optimistic*/
 /*#foundpoem:nth-child(2):hover{
 background-color: rgba(195, 233, 158, 0.9);
 color:#1e1d19;
 }*/
 
 #foundpoem:nth-child(3):hover{
-background-color: rgba(195, 233, 158, 0.9);
+background-color: rgba(195, 233, 158, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(9):hover{
-background-color: rgba(195, 233, 158, 0.9);
+background-color: rgba(195, 233, 158, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(33):hover{
-background-color: rgba(195, 233, 158, 0.9);
+background-color: rgba(195, 233, 158, 0.25);
 color:#1e1d19;
 }
 
 #foundpoem:nth-child(47):hover{
-background-color: rgba(195, 233, 158, 0.9);
+background-color: rgba(195, 233, 158, 0.25);
 color:#1e1d19;
 }
 
@@ -261,8 +261,13 @@ color:#1e1d19;
  #projectsHeading3: {color: #1e1d19;}
 
 #projectsHeading0, #projectsHeading1, #projectsHeading2, #projectsHeading3, #projectsHeading4, #projectsHeading5  { 
-text-decoration: underline; color: #ffded3;  font-size: 1vw;
+  font-size: 1vw;
  }
+
+#projectsHeading0, #projectsHeading5{
+text-decoration: underline; color: #ffded3;
+}
+
 
 .projectsTab1,.projectsTab2, .projectsTab3, .projectsTab4,.projectsTab5,.slideDown {
   display: none; 
@@ -277,7 +282,7 @@ left: 1px;
 
 a{
 left: 1px;
-  color: olive;
+  color: #b7ae61;
   font-size: 1vw;
 }
 
