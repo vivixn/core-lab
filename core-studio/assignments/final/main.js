@@ -350,7 +350,18 @@ function populatePage(sortedArray){
     sortedArray[i].fullText + "</div>" +  "<br>")
 }
 }
-populatePage(foundText)
+populatePage(foundText);
+
+
+// $('#SortBySize').click(function(){var drawings2 = drawings.sort()
+//     populatePage(drawings2);});
+
+
+
+// $('#SortByMood').click(function(){var drawings3 = drawings.sort()
+//     populatePage(drawings3);});
+
+
 
 
 
