@@ -15,8 +15,9 @@ h1 {color: #ffded3;
 }
 
 h3 {/*float: right;*/
-  margin-left: 39vw;
-font-size: 1.5vw;
+  margin-right: 1vw;
+font-size: 1.3vw;
+/*color: #b7ae61;*/
 }
 
 h4 {float: left;
@@ -58,12 +59,12 @@ color:#1e1d19;
 border-radius: 1.23px;
 opacity: .9}
 
-mark:hover {
+/*mark:hover {
 background-color:transparent;
 color: #1e1d19;
 border-radius: 1px;
 opacity: .9}
-
+*/
 
 #project4 {background-color: rgba(250, 195, 204, 0.9);
 color: #1e1d19;}
@@ -348,7 +349,7 @@ padding-right: 20px; padding-left: 20px; }
 margin-top: 5vh;
   height: 565vh;
   width: 102%;
-  background-image: repeating-linear-gradient(#fdf7ea 0vmin, #fdf7ea 1.47vw, grey 1.50605vw);
+  background-image: repeating-linear-gradient(#fdf7ea 0vmin, #fdf7ea 1.445vw, grey 1.4895vw);
 }
 /*i GIVE UP WITH THE LINES LOL*/
 
@@ -369,4 +370,18 @@ margin-top: 5vh;
   align-items: center;
 }
 
+#content2  {
+ float: right;
+ position: relative;
+   z-index: 1;
+   font-size: 1.3vw;
+    margin-right: 1vw;
+  /*  color: #b7ae61;*/
+  /*   margin-left: 29vw;*/
 
+}
+
+.categorization { color: rgba(250, 225, 140, 0.9); }
+.categorization2 { color:  rgba(195, 233, 158, 0.9);}
+.categorization3 { color:  }
+.categorization4 { color: rgba(202, 216, 247, 0.9); }
