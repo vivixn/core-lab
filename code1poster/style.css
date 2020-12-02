@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+  text-align: center;
+  background-color: black;
+  animation-name: bgcolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function:steps(1, end); 
+}
+
+.box {
+  width: 48vw;
+  height: 48vw;
+  background: #4e19d4;
+  text-align: center;
+  position: fixed;
+  
+  top: 50%;
+  left: 50%;
+  margin-top: -24vw;
+  margin-left: -24vw;
+  animation-name: boxcolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function:steps(1, end);
+  z-index: -1;
+}
+
+.conflicting {
+	color: hsl(0, 0%, 90%);
+	font-size: 8vw;
+	font-weight: 600;
+	margin-left: 20vw;
+	animation-name: textcolor;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function:steps(1, end);
+	z-index: 2;
+}
+
+.dichotomy {
+	font-size: 8vw;
+	font-weight: 600;
+	color: hsl(0, 0%, 90%);
+	white-space: nowrap;
+	margin-left: -50vw;
+	margin-top: 8vw;
+	z-index: 2;
+}
+
+a {
+	color: hsl(0, 0%, 90%);
+	animation-name: textcolor;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function:steps(1, end);
+	text-decoration: none;
+}
+
+.contradictory {
+	color: hsl(0, 0%, 90%);
+	font-size: 8vw;
+	font-weight: 600;
+	margin-top: 13vw;
+	animation-name: textcolor;
+	animation-duration: 4s;
+	margin-left: -10vw;
+	animation-iteration-count: infinite;
+	animation-timing-function:steps(1, end);
+	z-index: 2;
+}
+
+.paused {
+	animation-play-state: paused;
+  }
+
+ .paused * {
+ 	animation-play-state: paused;
+ }
+
+ @keyframes textcolor {
+	0% {color: #4e19d4;}
+	20% {color: #e1f0c5;}
+	40% {color: #FF0000;}
+	60% {color: #4e19d4;}
+	80% {color: #e1f0c5;}
+	100% {color: #FF0000;}
+}
+
+@keyframes boxcolor {
+	0% {background-color: #e1f0c5;}
+	20% {background-color: #FF0000;}
+	40% {background-color: #4e19d4;}
+	60% {background-color: #e1f0c5;}
+	80% {background-color: #FF0000;}
+	100% {background-color: #4e19d4;}
+}
+
+@keyframes bgcolor {
+	0% {background-color: #FF0000;}
+	20% {background-color: #4e19d4;}
+	40% {background-color: #e1f0c5;}
+	60% {background-color: #FF0000;}
+	80% {background-color: #4e19d4;}
+	100% {background-color: #e1f0c5;}
+}
