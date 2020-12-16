@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+ 		<meta charset='utf-8'>
+
+
+<style>
+.mouseDownBox {
+			position: absolute;
+			font-size: 100px;
+			overflow: none;
+		}
+#animals {margin: auto;
+			width: 150vmin;
+			height: 150vmin;
+			background-color: green;
+			position: relative;
+			text-align: center}
+
+body {margin: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			 }
+
+
+#top, #bottom, #left, #right {
+	background: saddlebrown;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 25px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 25px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+		}
+
+</style>
+</head>
+<body>
+
+<div id="animals"><h1>click any key to see animals on the farm</h1></div>
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+</body>
+
+<script>
+
+	var counter = 0;
+
+		$(window).keypress(function( event ) {
+			var animalDiv = $('<div/>', {
+				'class': 'mouseDownBox'
+			})
+			.html(animals[counter%animals.length].emoji)
+			.css({'top': Math.random()* window.innerHeight + "px", 'left': Math.random()* window.innerWidth + "px"})
+
+			counter = counter+1;
+			$('body').append(animalDiv)
+		})
+
+
+// only top n left positions inside div
+//calculate a pixel inside div and append min and max pixel values relative to page where it starts and finishes relative to div math.random x width of div window.innerwidth calculate width of pg and calculate how wide the div is, 
+//buffer that is the width of the emoji. or nothing over 100 px on sides of page
+
+// var counter = 0;
+
+// document.onmousemove = function (event) {
+// 	var div = document.createElement ("div");
+// 	div.style.top = event.y + "🐓";
+// 	div.style.left = event.x + "🐓";
+// 	div.style.backgroundColor = "🐓";
+// 	document.body.appendChild(div);
+
+// 	counter = counter + 1;
+// }
+</script>
+
+</html>
